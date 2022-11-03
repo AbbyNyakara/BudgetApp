@@ -13,3 +13,97 @@
  *= require_tree .
  *= require_self
  */
+
+ * {
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+ }
+
+ .home__page {
+  background-color: #F2EBE9;
+  height: 100vh;
+  position: relative;
+ }
+
+ .registrations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  padding: 1rem;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  left: 5px;
+  right: 5px;
+ }
+
+ .new-btn {
+  background-color: #243A73;
+  display: block;
+  width: 100%;
+  border: none;
+  padding: 5px 12px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+ }
+
+ .btn-link {
+  text-decoration: none;
+  color: #F2EBE9;
+  width: 100vw;
+ }
+
+ .sign__up {
+  color: gray;
+  text-decoration: none;
+ }
+
+ .logo {
+  padding-top: 20%;
+  text-align: center;
+ }
+
+ .title__name {
+  font-family: 'Pacifico', cursive;
+  color: #243A73;
+  font-size: 4rem;
+ }
+
+ .login__form {
+  padding: 1rem;
+  background-color: #F2EBE9;
+  height: 100vh;
+ }
+
+ .form-control {
+  display: block;
+  width: 100%;
+ }
+
+ .form__input {
+  margin-bottom: 20px;
+ }
+
+ .forgot__password {
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+ }
+
+ .login__btn {
+  padding: 10px 20px;
+  margin-bottom: 1rem;
+  background-color: #243A73;
+ }
+
+ .user_registration {
+  background-color: #F2EBE9;
+  height: 100vh;
+ }
+
+.user_registration {
+  padding: 1rem;
+}
+
