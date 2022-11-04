@@ -8,7 +8,7 @@
 
 ## Getting Started
 -Download the repository as a zip file/ clone the repository using 
-git clone https://github.com/BugetApp.git
+git clone https://github.com/AbbyNyakara/BudgetApp.git
 
 Create a branch and start working!
 
