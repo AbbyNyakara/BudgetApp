@@ -13,97 +13,138 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,200&family=Pacifico&display=swap');
+@import "font-awesome";
 
- * {
+body {
   font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
- }
-
- .home__page {
-  background-color: #F2EBE9;
-  height: 100vh;
-  position: relative;
- }
-
- .registrations {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 1.2rem;
-  padding: 1rem;
-  margin-top: auto;
-  position: fixed;
-  bottom: 0;
-  left: 5px;
-  right: 5px;
- }
-
- .new-btn {
-  background-color: #243A73;
-  display: block;
-  width: 100%;
-  border: none;
-  padding: 5px 12px;
-  margin-bottom: 20px;
-  border-radius: 5px;
- }
-
- .btn-link {
-  text-decoration: none;
-  color: #F2EBE9;
-  width: 100vw;
- }
-
- .sign__up {
-  color: gray;
-  text-decoration: none;
- }
-
- .logo {
-  padding-top: 20%;
-  text-align: center;
- }
-
- .title__name {
-  font-family: 'Pacifico', cursive;
-  color: #243A73;
-  font-size: 4rem;
- }
-
- .login__form {
-  padding: 1rem;
-  background-color: #F2EBE9;
-  height: 100vh;
- }
-
- .form-control {
-  display: block;
-  width: 100%;
- }
-
- .form__input {
-  margin-bottom: 20px;
- }
-
- .forgot__password {
-  text-align: center;
-  color: gray;
-  text-decoration: none;
- }
-
- .login__btn {
-  padding: 10px 20px;
-  margin-bottom: 1rem;
-  background-color: #243A73;
- }
-
- .user_registration {
-  background-color: #F2EBE9;
-  height: 100vh;
- }
-
-.user_registration {
-  padding: 1rem;
 }
 
+.app__name {
+  color: #372948;
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.app__description {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.5rem;
+}
+
+.header__nav {
+  background-color: #372948;
+}
+
+.sign_up {
+  color: gray;
+}
+
+.add__category {
+  background-color: #372948;
+}
+
+.para {
+  font-size: 1rem;
+}
+
+.fa-solid {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.user-head {
+  font-weight: 700;
+  background-repeat: no-repeat;
+  background-position: 20% 20%;
+  background-size: cover;
+  color: transparent;
+  max-width: 900px;
+  align-self: center;
+}
+
+.field {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.actions {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.group-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #372948;
+  padding: 10px;
+  width: 30%;
+  margin-bottom: 20px;
+  margin: auto;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.fa {
+  color: #fff;
+}
+
+.expense-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.list-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.icon-card {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.card-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 25px;
+}
+
+.login-btn,
+.signup-btn,
+.save-btn {
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  background-color: #372948;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin-bottom: 10px;
+  outline: 0;
+  transition: all 0.5s linear;
+}
+
+a {
+  text-decoration: none;
+}
