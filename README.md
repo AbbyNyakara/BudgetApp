@@ -1,5 +1,10 @@
 # BUDGETLLY
 - A budgetting mobile app that allows the user to add a category and to add expenses that are associatted with the category.
+- This is a Ruby on Rails application that allows the user to:
+
+      - register and log in, so that the data is private to them.
+      - introduce new transactions associated with a category.
+      - see the money spent on each category.
 
 ## Getting Started
 -Download the repository as a zip file/ clone the repository using 
@@ -31,11 +36,9 @@ Feel free to check the [issues page](../../issues/).
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Coding Partner
+- Original design idea by [Gregoire Vella](https://www.behance.net/gregoirevella) on Behance.
 - Code Reviewer
-- etc
 
 ## 📝 License
 
-This project is [MIT](https://spdx.org/licenses/MIT.html) licensed.
+This project is [Creative Commons](https://creativecommons.org/) licensed.
