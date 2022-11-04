@@ -13,8 +13,8 @@ git clone https://github.com/AbbyNyakara/BudgetApp.git
 Create a branch and start working!
 
 ## Links
- - [Presentation Video](https://www.loom.com/share/46aa1945875b43e1938cdea5442af9e8)
- - [Live](https://calm-spire-10060.herokuapp.com/)
+ - [Presentation Video](https://www.loom.com/share/9b358182133a446fba70701fc7af59e6)
+ - [Live](https://mysterious-thicket-57908.herokuapp.com/)
 
 ## Authors
 

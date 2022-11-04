@@ -7,14 +7,14 @@
   </div>
   <h2 class="d-flex justify-content-center align-items-center expense-title">Transactions</h1>
   <% if @expenses.count > 0 %>
-  <div class="card p-4">
+  <div class="card p-2">
     <div class="expense-total">
       <h4>Total Amount Budget:</h4>
       <h4> <%= number_to_currency(@expenses.sum(&:amount)) %> </h4>
     </div>
     <div class="card-body">
       <div class="d-flex ms-5 mb-3 gap-5 align-items-center icon-card">
-        <img src="<%= @group.icon %>", alt="group_icon" class="card-img">
+        <img src="#{<%= @group.icon %>}", alt="group_icon" class="card-img">
         <h2> <%= @group.name %> </h2>
       </div>
       <% @expenses.each do |expense| %>
